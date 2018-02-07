@@ -1,22 +1,69 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   TheraPet Farm's custom styles
    ========================================================================== */
 
+* /*Resets default padding and margin for everything*/
+{
+    padding: 0;
+    margin: 0;
+}
+
+.banner
+{
+    height: 100px;
+    background-color:whitesmoke;
+    background-position: center;
+    padding-left: 20%;
+  
+}
+
+.navbar
+{
+    width: 100%;
+    background-color: #01CB99;
+    padding-left: 45%;
+    height: 3em;
+    font-family: Ubuntu, sans-serif;
+}
+
+ul li
+{
+    float: left;
+    width:8em;
+    list-style-type: none;
+    text-align: center;
+    line-height: 3em;
+    background-color: #01CB99;
+}
+
+li a
+{
+    text-decoration: none;
+    display:block;
+    color: white;
+}
 
 
+/* Change the link color to darkgray on hover */
+li a:hover
+{
+    background-color: dimgray;
+}
 
+li ul
+{
+    display:none;
+}
 
+ li:hover ul
+{
+    display: block;
+       background-color: #01CB99;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+li ul a:hover
+{
+    
+}
